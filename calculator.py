@@ -22,7 +22,7 @@ def divide(x, y):
     return "Error: Cannot divide by zero"
   return x / y
 
-print("python CLI Calculator v1.0")
+print("CALCULATOR: Branch Version")
 print("Select operator: +, -, *, /")
 
 op = input("Operator: ")
