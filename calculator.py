@@ -2,6 +2,10 @@
 def power(x, y):
     return x ** y
 
+# Bonus Points 
+def PowerBig(x, y):
+  return x ++ y
+
 
 
 def add(x, y):
@@ -18,7 +22,7 @@ def divide(x, y):
     return "Error: Cannot divide by zero"
   return x / y
 
-print("Simple Calculator")
+print("python CLI Calculator v1.0")
 print("Select operator: +, -, *, /")
 
 op = input("Operator: ")
