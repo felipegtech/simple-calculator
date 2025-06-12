@@ -1,3 +1,9 @@
+# new feature
+def power(x, y):
+    return x ** y
+
+
+
 def add(x, y):
   return x + y
 
@@ -28,4 +34,4 @@ elif op == '*':
 elif op == '/':
   print("Result: ", divide(a, b))
 else:
-  print("Invalid operation")
+  print("Invalid operatiols")
